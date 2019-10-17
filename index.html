@@ -6,25 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Slider</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="slider">
-        <div class="slider__item">
-            <h1>1</h1>
+    <ul class="tabs">
+        <li data-tab-target="#SUE-Design" class="tab">SUE Design</li>
+        <li data-tab-target="#Web" class="tab">Web</li>
+        <li data-tab-target="#Graphic" class="tab">Graphic</li>
+        <li data-tab-target="#About" class="tab">About</li>
+    </ul>
+
+    <div class="tab-content">
+        <div id="SUE-Design" data-tab-content>
+            <h1>SUE Design</h1>
+            <p>This is SUE Design</p>
         </div>
-        <div class="slider__item">
-            <h1>2</h1>
+        <div id="Web" data-tab-content>
+            <h1>Web</h1>
+            <p>This is Web</p>
         </div>
-        <div class="slider__item">
-            <h1>3</h1>
+        <div id="Graphic" data-tab-content>
+            <h1>Graphic</h1>
+            <p>This is Graphic</p>
         </div>
-        <div class="slider__item">
-            <h1>4</h1>
-        </div>
-        <div class="slider__item">
-            <h1>5</h1>
+        <div id="About" data-tab-content>
+            <h1>About</h1>
+            <p>Let me introduce</p>
         </div>
     </div>
     <script src="main.js">
