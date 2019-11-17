@@ -10,33 +10,92 @@
 </head>
 
 <body>
+
+    <!-- tab -->
     <ul class="tabs">
-        <li data-tab-target="#SUE-Design" class="tab">SUE Design</li>
-        <li data-tab-target="#Web" class="tab">Web</li>
-        <li data-tab-target="#Graphic" class="tab">Graphic</li>
-        <li data-tab-target="#About" class="tab">About</li>
+        <a href="">
+            <img class="logo-images" src="images/logo.png">
+        </a>
+        <li data-tab-target="web" class="tab">Web</li>
+        <li data-tab-target="graphic" class="tab">Graphic</li>
+        <li data-tab-target="about" class="tab">About</li>
+
+        <li class="tab">Blog</li>
+        <li class="tab">Instagram</li>
     </ul>
 
-    <div class="tab-content">
-        <div id="SUE-Design" data-tab-content>
-            <h1>SUE Design</h1>
-            <p>This is SUE Design</p>
+    <!-- main page -->
+    <div class="slider">
+        <div class="slider__item">
+            <img class="main_images" src="images/pic1.jpg" alt="">
         </div>
-        <div id="Web" data-tab-content>
-            <h1>Web</h1>
-            <p>This is Web</p>
+        <div class="slider__item">
+            <img class="main_images" src="images/pic2.jpg" alt="">
         </div>
-        <div id="Graphic" data-tab-content>
-            <h1>Graphic</h1>
-            <p>This is Graphic</p>
-        </div>
-        <div id="About" data-tab-content>
-            <h1>About</h1>
-            <p>Let me introduce</p>
+        <div class="slider__item">
+            <img class="main_images" src="images/pic3.jpg" alt="">
         </div>
     </div>
-    <script src="main.js">
-    </script>
+
+
+
+    <div class="about">
+        <div class="about_title">
+            <h2>About SU:DESIGN</h2>
+        </div>
+        <div class="about_content">
+            <div class="about_text">
+                <h2>Hi, my name is Suzie Joe</h2>
+                <p>
+                    수디자인은 다양한 영역의 디자인을 제공하는 독립 디자이너 입니다.
+                    <ul>
+                        <li>SNS</li>
+                        <li>웹디자인</li>
+                        <li>그래픽디자인</li>
+                        <li>UX/UI</li>
+                        <li>일러스트</li>
+
+                    </ul>
+                </p>
+            </div>
+            <img src="images/about.JPG" alt="">
+        </div>
+    </div>
+
+    <!-- web thumbnail-->
+    <!--
+    <ul class="prdList grid3">
+        <li id="anchorBoxId_18" class="xans-record-">
+            <div class="thumbnail">
+                <div class="prdImg">
+                    <div class="likeButton displaynone"><button type="button"><strong></strong></button></div>
+        <a href="/product/sns/18/category/26/display/1/" name="anchorBoxName_18"><img src="//szjoe89.cafe24.com/web/product/medium/201908/7a4e4786d71f917b5e4b3643113c480a.jpg" id="eListPrdImage18_1" alt="sns"></a>
+        <span class="wish"><img src="//img.echosting.cafe24.com/design/skin/admin/ko_KR/btn_wish_before.png" class="icon_img ec-product-listwishicon" alt="관심상품 등록 전" productno="18" categoryno="26" icon_status="off" login_status="F" individual-set="F"></span>
+        </div>
+        </div>
+        <div class="description">
+            <div class="timesale_box">
+                <span class="saletime"></span><span class="sale_per"></span>
+            </div>
+            <div class="name"><a href="/product/sns/18/category/26/display/1/" class=""><span class="title displaynone"><span style="font-size:12px;color:#555555;">상품명</span> :</span> <span style="font-size:12px;color:#555555;">sns</span></a></div>
+            <ul class="xans-element- xans-product xans-product-listitem spec">
+                <li rel="상품요약정보" class=" xans-record-">
+                    <strong class="title displaynone"><span style="font-size:12px;color:#555555;">상품요약정보</span> :</strong> <span style="font-size:12px;color:#555555;">sns</span></li>
+            </ul>
+            <div class="icon">
+                <div class="promotion"> </div>
+                <div class="button">
+                    <div class="likeButton displaynone"><button type="button"> <strong></strong></button></div>
+                    <div class="option"></div>
+                </div>
+            </div>
+        </div>
+        </li>
+    </ul>
+    -->
+    <script src="menu.js"></script>
+    <script src="main.js"></script>
+    <script src="about.js"></script>
 </body>
 
 </html>
