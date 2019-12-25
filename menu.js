@@ -1,7 +1,9 @@
+/*
+
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 
-/*
+
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
         const target = document.querySelector(tab.dataset.tabTarget)
@@ -15,7 +17,7 @@ tabs.forEach(tab => {
         target.classList.add('active')
     })
 })
-*/
+
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
@@ -48,3 +50,4 @@ function smoothScroll(target, duration) {
 }
 
 //smoothScroll(".about", 1000);
+*/

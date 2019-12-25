@@ -1,0 +1,28 @@
+
+.logo-images {
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60px;
+    height: auto;
+}
+
+.tabs {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    border-bottom: 1px solid darkgray;
+
+}
+
+.tab {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 40px;
+    font-size: 12pt;
+}
