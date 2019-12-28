@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,500,700,900&display=swap&subset=korean');
 @import url(tabs.css);
 @import url(reset.css);
-
 [data-tab-content] {
     display: none;
 }
@@ -12,10 +11,8 @@
 }
 
 .slider {
-    height:800px;
     position: relative;
     margin: 0 auto;
-
 }
 
 .slider__item {
@@ -30,13 +27,13 @@
     z-index: 1;
 }
 
-.main_images{
-    width:100%;
-    height:auto;
+.main_images {
+    width: 100%;
+    height: auto;
 }
 
-.about{
-    position:relative; 
+.about {
+    position: relative;
     margin: 0 auto;
 }
 
@@ -54,38 +51,37 @@
     margin: 0 auto;
 }
 
-.about_text {font-size: 16pt;
+.about_text {
+    font-size: 16pt;
     text-align: center;
     margin: 0 auto;
     opacity: 0;
     transform: translateY(20px);
     transition: 1.5s all ease-in-out;
 }
-.img_about{
-    width:100%;
-    height:auto;
-}
 
+.img_about {
+    width: 100%;
+    height: auto;
+}
 
 .about_appear {
     opacity: 1;
     transform: translateY(0px);
 }
 
-
-
 .text {
     display: inline;
 }
 
-.footer{
-    margin-top:200px;
-    background-color:#f9f9f9; 
+.footer {
+    margin-top: 200px;
+    background-color: #f9f9f9;
     font-size: 12pt;
-    border-top:1px solid gray;
+    border-top: 1px solid gray;
 }
 
-.footer_text{
+.footer_text {
     width: 1900px;
     margin: 0 auto;
     color: #4b4b4b;

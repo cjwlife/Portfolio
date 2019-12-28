@@ -20,16 +20,15 @@ slide();
 setInterval(slide, 3000);
 
 
-/*
-const mainImages = document.querySelectorAll(".main_images");
 
+const sliderImageSize = document.querySelector(".slider__item");
+const slider = document.querySelector(".slider");
+
+window.onload = function() {
+    slider.style.height = sliderImageSize.offsetHeight + 200 + 'px';
+    console.log(sliderImageSize.offsetHeight + 'px');
+}
 window.addEventListener('resize', () => {
-    const slideSize = document.querySelector(".slider");
-    slideSize.setAttribute("height", window.innerHeight);
-    mainImages.forEach(img => {
-        img.setAttribute("height", window.innerHeight);
-        img.setAttribute("width", window.innerWidth);
-    })
+    slider.style.height = sliderImageSize.offsetHeight + 200 + 'px';
+    console.log(sliderImageSize.offsetHeight + 'px');
 });
-
-*/
