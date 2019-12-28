@@ -1,6 +1,6 @@
 str = ''
 str += '<ul class="tabs">'
-str += '    <a href="main.html"><img class="logo-images" src="images/logos.png"></a>'
+str += '    <a href="index.html"><img class="logo-images" src="images/logos.png"></a>'
 str += '    <li data-tab-target="web" class="tab"><a href="web.html">Web</a></li>'
 str += '    <li data-tab-target="graphic" class="tab"><a href="#">Graphic</a></li>'
 str += '    <li data-tab-target="about" class="tab"><a href="about.html">About</a></li>'
